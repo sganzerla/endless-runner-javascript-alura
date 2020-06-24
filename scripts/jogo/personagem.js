@@ -1,5 +1,4 @@
 class Personagem extends Animacao {
-
   constructor(matriz, imagem, x, largura, altura, larguraSprite, alturaSprite) {
     super(matriz, imagem, x, largura, altura, larguraSprite, alturaSprite);
 
@@ -8,11 +7,10 @@ class Personagem extends Animacao {
 
     this.velocidadeDoPulo = 0;
     this.gravidade = 3;
-
   }
 
   pula() {
-    this.velocidadeDoPulo = -50;
+    this.velocidadeDoPulo = -30;
   }
 
   aplicaGravidade() {
@@ -26,18 +24,17 @@ class Personagem extends Animacao {
 
   estaColidindo(inimigo) {
 
-//     noFill();
-//     rect(this.x,
-//       this.y,
-//       this.largura,
-//       this.altura);
+    const precisao = .7;
+    //     noFill();
+    //     rect(this.x,
+    //       this.y,
+    //       this.largura,
+    //       this.altura);
 
-//     rect(inimigo.x,
-//       inimigo.y,
-//       inimigo.largura,
-//       inimigo.altura);
-
-    const precisao = 7;
+    //     rect(inimigo.x,
+    //       inimigo.y,
+    //       inimigo.largura,
+    //       inimigo.altura);
 
     const colisao = collideRectRect(
       this.x,
@@ -49,6 +46,7 @@ class Personagem extends Animacao {
       inimigo.largura * precisao,
       inimigo.altura * precisao
     );
+
     return colisao;
   }
 
