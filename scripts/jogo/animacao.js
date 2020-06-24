@@ -5,8 +5,8 @@ class Animacao {
     this.imagem = imagem;
     this.largura = largura;
     this.altura = altura;
-    this.x = x;
     this.y = height - this.altura;
+    this.x = x;
     this.larguraSprite = larguraSprite;
     this.alturaSprite = alturaSprite;
     this.frameAtual = 0;
