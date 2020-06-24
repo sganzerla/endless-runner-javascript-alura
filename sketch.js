@@ -7,6 +7,7 @@ let personagem;
 let inimigo;
 
 let somDoJogo;
+let somDoPulo;
 
 const matrizInimigo = [
   [0, 0],
@@ -37,7 +38,7 @@ const matrizInimigo = [
   [104, 626],
   [208, 626],
   [312, 626],
-];
+]
 
 const matrizPersonagem = [
   [0, 0],
@@ -64,7 +65,7 @@ function preload() {
   imagemPersonagem = loadImage('imagens/personagem/correndo.png');
   imagemInimigo = loadImage('imagens/inimigos/gotinha.png');
   somDoJogo = loadSound('sons/trilha_jogo.mp3');
-
+  somDoPulo = loadSound('sons/jump-mario.mp3');
 }
 
 
@@ -81,6 +82,7 @@ function setup() {
 function keyPressed() {
   if (key === 'ArrowUp') {
     personagem.pula();
+    somDoPulo.play();
   }
 }
 
@@ -94,11 +96,11 @@ function draw() {
 
   inimigo.exibe();
   inimigo.move();
-  
-  if (personagem.estaColidindo(inimigo)){
-   console.log("colisao");
-    noLoop;
+
+  if (personagem.estaColidindo(inimigo)) {
+    console.log("colisao");
+    // noLoop(); 
   }
-  
+
 
 }
