@@ -6,9 +6,6 @@ let imagemInimigoVoador;
 
 let cenario;
 let personagem;
-let inimigo;
-let inimigoGrande;
-let inimigoVoador;
 
 let somDoJogo;
 let somDoPulo;
@@ -114,6 +111,8 @@ const matrizInimigoVoador = [
   [0, 750],
 ];
 
+const inimigos = [];
+
 function preload() {
   imagemCenario = loadImage('imagens/cenario/floresta.png');
   imagemPersonagem = loadImage('imagens/personagem/correndo.png');
@@ -130,13 +129,16 @@ function setup() {
   cenario = new Cenario(imagemCenario, 3);
   personagem = new Personagem(
     matrizPersonagem, imagemPersonagem, 0, 30, 110, 135, 220, 270);
-  inimigo = new Inimigo(
-    matrizInimigo, imagemInimigo, width - 52, 30, 52, 52, 104, 104, 10, 100);
-  inimigoGrande = new Inimigo
-    (matrizInimigoGrande, imagemInimigoGrande, width, 0, 200, 200, 400, 400, 10, 500);
-  inimigoVoador = new Inimigo(
-    matrizInimigoVoador, imagemInimigoVoador, width - 52, 200, 52, 52, 200, 150, 10, 100);
+  const inimigo = new Inimigo(
+    matrizInimigo, imagemInimigo, width - 52, 30, 52, 52, 104, 104, 10, 200);
+  const inimigoGrande = new Inimigo
+    (matrizInimigoGrande, imagemInimigoGrande, width, 0, 200, 200, 400, 400, 10, 1500);
+  const inimigoVoador = new Inimigo(
+    matrizInimigoVoador, imagemInimigoVoador, width - 52, 200, 52, 52, 200, 150, 10, 2500);
 
+  inimigos.push(inimigo);
+  inimigos.push(inimigoGrande);
+  inimigos.push(inimigoVoador);
 
   somDoJogo.loop();
   frameRate(40);
@@ -149,6 +151,11 @@ function keyPressed() {
   }
 }
 
+function touchStarted() {
+  personagem.pula();
+  somDoPulo.play();
+}
+
 function draw() {
 
   cenario.exibe();
@@ -157,20 +164,16 @@ function draw() {
   personagem.exibe();
   personagem.aplicaGravidade();
 
-  inimigo.exibe();
-  inimigo.move();
+  inimigos.forEach(inimigo => {
+    inimigo.exibe();
+    inimigo.move();
+    if (personagem.estaColidindo(inimigo)) {
+      console.log("colisao");
+      noLoop(); 
+    }
+  });
 
-  inimigoGrande.exibe();
-  inimigoGrande.move();
 
-
-  inimigoVoador.exibe();
-  inimigoVoador.move();
-
-  if (personagem.estaColidindo(inimigo)) {
-    console.log("colisao");
-    // noLoop(); 
-  }
 
 
 }
