@@ -131,11 +131,11 @@ function setup() {
   personagem = new Personagem(
     matrizPersonagem, imagemPersonagem, 0, 30, 110, 135, 220, 270);
   inimigo = new Inimigo(
-    matrizInimigo, imagemInimigo, width - 52, 30, 52, 52, 104, 104);
+    matrizInimigo, imagemInimigo, width - 52, 30, 52, 52, 104, 104, 10, 100);
   inimigoGrande = new Inimigo
-    (matrizInimigoGrande, imagemInimigoGrande, width * 2, 0, 200, 200, 400, 400);
+    (matrizInimigoGrande, imagemInimigoGrande, width, 0, 200, 200, 400, 400, 10, 500);
   inimigoVoador = new Inimigo(
-    matrizInimigoVoador, imagemInimigoVoador, width - 52, 30, 52, 52, 104, 104);
+    matrizInimigoVoador, imagemInimigoVoador, width - 52, 200, 52, 52, 200, 150, 10, 100);
 
 
   somDoJogo.loop();
@@ -162,6 +162,10 @@ function draw() {
 
   inimigoGrande.exibe();
   inimigoGrande.move();
+
+
+  inimigoVoador.exibe();
+  inimigoVoador.move();
 
   if (personagem.estaColidindo(inimigo)) {
     console.log("colisao");
