@@ -1,0 +1,9 @@
+{
+  "name": "endless-runner-javascript-alura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sganzerla/endless-runner-javascript-alura.git",
+  "author": "alisson sganzerla <alisson_sganzerla@yahoo.com.br>",
+  "license": "MIT",
+  "script"
+}
