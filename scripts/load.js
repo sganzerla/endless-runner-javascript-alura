@@ -7,7 +7,7 @@ function preload() {
     imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png');
     imagemTelaInicial = loadImage('imagens/cenario/telaInicial.png');
 
-    fonteTelaInicial = loadImage('imagens/assets/fonteTelaInicial.otf');
+    fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
 
     somDoJogo = loadSound('sons/trilha_jogo.mp3');
     somDoPulo = loadSound('sons/jump-mario.mp3');
