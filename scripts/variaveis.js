@@ -12,13 +12,15 @@ let cenaAtual = 'telaInicial';
 let cenas;
 let telaInicial;
 let fonteTelaInicial;
-
+let botaoGerenciador;
 let cenario;
 let pontuacao;
 let personagem;
 
 let somDoJogo;
 let somDoPulo;
+
+
 
 const matrizInimigo = [
     [0, 0],

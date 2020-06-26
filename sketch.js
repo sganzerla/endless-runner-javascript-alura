@@ -10,6 +10,7 @@ function setup() {
     jogo,
     telaInicial
   };
+  botaoGerenciador = new BotaoGerenciador("Iniciar", width / 2, height / 2);
 }
 
 function keyPressed() {
