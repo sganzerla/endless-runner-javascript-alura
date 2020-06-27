@@ -70,6 +70,11 @@ As aulas foram ministradas pelo CEO da Caelum/Alura, **[Paulo Silveira](https://
 
 ## :trophy: Evolução Projeto
 
+[aula05 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula05-vidas-e-mapas?utm_campaign=imersao_js_gamedev_aula_05&utm_medium=email&utm_source=RD+Station)
+
+![image](resources/aula5.gif)
+
+
 [aula04 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula04-estado-e-cenas?utm_campaign=imersao_js_gamedev_aula_04&utm_medium=email&utm_source=RD+Station)
 
 ![image](resources/aula4.gif)
