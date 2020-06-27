@@ -20,7 +20,7 @@ let inimigoGrande;
 let inimigoVoador;
 let pontuacao;
 let vida;
-let cenaAtual = 'jogo';
+let cenaAtual = 'telaInicial';
 let cenas;
 let botao;
 const matrizInimigo = [

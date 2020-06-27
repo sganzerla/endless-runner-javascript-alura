@@ -32,6 +32,12 @@ function keyPressed() {
   jogo.keyPressed(key)
 }
 
+
+function touchStarted() {
+  personagem.pula();
+  somDoPulo.play();
+}
+
 function draw() {
   // if(cenaAtual === 'jogo') {
   //   jogo.draw()
