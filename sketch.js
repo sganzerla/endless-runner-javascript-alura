@@ -6,9 +6,9 @@ function preload() {
   imagemInimigo = loadImage('imagens/inimigos/gotinha.png');
   imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png');
   imagemInimigoGrande = loadImage('imagens/inimigos/troll.png');
-
+  imagemVida = loadImage('imagens/assets/heart.png');
   fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
-  
+
   somDoJogo = loadSound('sons/trilha_jogo.mp3');
   somDoPulo = loadSound('sons/somPulo.mp3');
 }
@@ -22,7 +22,7 @@ function setup() {
     jogo
   }
   jogo.setup()
-  botaoGerenciador = new BotaoGerenciador('Iniciar', width / 2, height / 2)
+  botao = new BotaoGerenciador('Iniciar', width / 2, height / 2)
 
   frameRate(40)
   somDoJogo.loop();

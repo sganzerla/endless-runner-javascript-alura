@@ -9,11 +9,11 @@ class TelaInicial {
     this._texto()
     this._botao()
   }
-  
+
   _fundo() {
       image(imagemTelaInicial, 0, 0, width, height)
   }
-  
+
   _texto() {
     fill(0);
     strokeWeight(2);
@@ -26,9 +26,9 @@ class TelaInicial {
     text('Hipsta', width / 2, height / 5 * 3);
     textFont('Georgia')
   }
-  
+
   _botao() {
-    botaoGerenciador.y = height / 7 * 5
-    botaoGerenciador.draw()
+    botao.y = height / 7 * 5
+    botao.draw()
   }
 }
