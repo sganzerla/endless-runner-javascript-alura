@@ -8,7 +8,7 @@ function preload() {
   imagemInimigoGrande = loadImage('imagens/inimigos/troll.png');
   imagemVida = loadImage('imagens/assets/heart.png');
   fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
-
+  fita = loadJSON('fita/fita.json');
   somDoJogo = loadSound('sons/trilha_jogo.mp3');
   somDoPulo = loadSound('sons/somPulo.mp3');
 }
