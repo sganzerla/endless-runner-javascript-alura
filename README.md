@@ -20,7 +20,7 @@
   - [:rocket: Tecnologias Utilizadas](#rocket-tecnologias-utilizadas)
   - [:fire: Como jogar](#fire-como-jogar)
   - [:mortar_board: Instrutores](#mortar_board-instrutores)
-  - [:trophy: Evolução Projeto](#evolucao-projeto)
+  - [:trophy: Evolução Projeto](#trophy-evolução-projeto)
   - [:memo: License](#memo-license)
 
 <a id="sobre"></a>
@@ -64,7 +64,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## :mortar_board: Instrutores
 
-As aulas foram ministradas pelo CEO da Caelum, **[Paulo Silveira](https://twitter.com/paulo_caelum)**, pela instrutora do Alura, **[Juliana Negreiros](https://twitter.com/juunegreiros)**, e pelo instrutor do Alura, **[Guilherme Lima](https://twitter.com/guilhermebzlima)**, nas aulas da **Imersão GameDev Alura**.
+As aulas foram ministradas pelo CEO da Caelum/Alura, **[Paulo Silveira](https://twitter.com/paulo_caelum)**, pela instrutora da Alura, **[Juliana Negreiros](https://twitter.com/juunegreiros)**, e pelo instrutor da Alura, **[Guilherme Lima](https://twitter.com/guilhermebzlima)**, na semana da **Imersão GameDev Alura** entre 22 e 26 de junho 2020.
 
 <a id="evolucao-projeto"></a>
 
@@ -88,4 +88,4 @@ As aulas foram ministradas pelo CEO da Caelum, **[Paulo Silveira](https://twitte
 
 ## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
