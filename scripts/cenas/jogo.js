@@ -48,6 +48,7 @@ class Jogo {
 
     if (personagem.estaColidindo(inimigo)) {
       image(imagemGameOver, width / 2 - 200, height / 3);
+      vida.perdeVida();
       // noLoop()
     }
   }
