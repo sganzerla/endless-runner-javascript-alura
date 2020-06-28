@@ -12,13 +12,13 @@ class Jogo {
     vida = new Vida(fita.configuracoes.vidaMaxima, fita.configuracoes.vidaInicial);
     //constructor(matriz, imagem, x, variacaoY, largura, altura, larguraSprite, alturaSprite)
     personagem = new Personagem(matrizPersonagem, imagemPersonagem, 0, 30, 110, 135, 60.875, 104);
-    const inimigo = new Inimigo(matrizInimigo, imagemInimigo, width -  98.222222222, 30,  98.222222222, 66, 98.222222222, 66, 10);
-    const inimigoVoador = new Inimigo(matrizInimigoVoador, imagemInimigoVoador, width - 52, 200, 100, 75, 200, 150, 10);
+    const inimigoCarangueijo = new Inimigo(matrizInimigoCarangueijo, imagemInimigoCarangueijo, width - 98.222222222, 30, 98.222222222, 66, 98.222222222, 66, 10);
+    const inimigoSwiper = new Inimigo(matrizInimigoSwiper, imagemInimigoSwiper, width, 30, 155, 150, 200, 200, 10);
     const inimigoGrande = new Inimigo(matrizInimigoGrande, imagemInimigoGrande, width, 0, 200, 200, 400, 400, 10);
 
-    inimigos.push(inimigo);
+    inimigos.push(inimigoCarangueijo);
     inimigos.push(inimigoGrande);
-    inimigos.push(inimigoVoador);
+    inimigos.push(inimigoSwiper);
   }
 
   keyPressed(key) {

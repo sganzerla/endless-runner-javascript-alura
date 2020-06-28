@@ -3,8 +3,8 @@ function preload() {
   imagemTelaInicial = loadImage('imagens/assets/telaInicial.png');
   imagemGameOver = loadImage('imagens/assets/game-over.png');
   imagemPersonagem = loadImage('imagens/personagem/dora-walk2.png');
-  imagemInimigo = loadImage('imagens/inimigos/carangueijo.png');
-  imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png');
+  imagemInimigoCarangueijo = loadImage('imagens/inimigos/carangueijo.png');
+  imagemInimigoSwiper = loadImage('imagens/inimigos/swiper.png');
   imagemInimigoGrande = loadImage('imagens/inimigos/troll.png');
   imagemVida = loadImage('imagens/assets/heart.png');
   fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');

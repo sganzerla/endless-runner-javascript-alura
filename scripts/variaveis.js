@@ -15,9 +15,9 @@ let jogo;
 let cenario;
 let somDoJogo;
 let personagem;
-let inimigo;
+let inimigoCarangueijo;
 let inimigoGrande;
-let inimigoVoador;
+let inimigoSwiper;
 let pontuacao;
 let vida;
 let fita;
@@ -25,7 +25,7 @@ let cenaAtual = 'telaInicial';
 let cenas;
 let botao;
 
-const matrizInimigo = [
+const matrizInimigoCarangueijo = [
   [0, 0],
   [98.222222222, 0],
   [196.444444444, 0],
@@ -77,23 +77,12 @@ const matrizInimigoGrande = [
   [400, 2000],
   [800, 2000],
 ];
-const matrizInimigoVoador = [
+const matrizInimigoSwiper = [
   [0, 0],
-  [200, 0],
-  [400, 0],
-  [0, 150],
-  [200, 150],
-  [400, 150],
-  [0, 300],
-  [200, 300],
-  [400, 300],
-  [0, 450],
-  [200, 450],
-  [400, 450],
-  [0, 600],
-  [200, 600],
-  [400, 600],
-  [0, 750],
+  [201, 0],
+  [401, 0],
+  [601, 0],
+
 ];
 
 const inimigos = [];
