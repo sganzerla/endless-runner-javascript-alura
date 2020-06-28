@@ -12,7 +12,7 @@ class Jogo {
     vida = new Vida(fita.configuracoes.vidaMaxima, fita.configuracoes.vidaInicial);
     //constructor(matriz, imagem, x, variacaoY, largura, altura, larguraSprite, alturaSprite)
     personagem = new Personagem(matrizPersonagem, imagemPersonagem, 0, 30, 110, 135, 60.875, 104);
-    const inimigo = new Inimigo(matrizInimigo, imagemInimigo, width - 52, 30, 52, 52, 104, 104, 10);
+    const inimigo = new Inimigo(matrizInimigo, imagemInimigo, width -  98.222222222, 30,  98.222222222, 66, 98.222222222, 66, 10);
     const inimigoVoador = new Inimigo(matrizInimigoVoador, imagemInimigoVoador, width - 52, 200, 100, 75, 200, 150, 10);
     const inimigoGrande = new Inimigo(matrizInimigoGrande, imagemInimigoGrande, width, 0, 200, 200, 400, 400, 10);
 
