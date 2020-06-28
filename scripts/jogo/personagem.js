@@ -41,7 +41,16 @@ class Personagem extends Animacao {
     if (this.invensivel) {
       return false;
     }
+    // noFill();
+    // rect(this.x,
+    //   this.y,
+    //   this.largura,
+    //   this.altura);
 
+    // rect(inimigo.x,
+    //   inimigo.y,
+    //   inimigo.largura,
+    //   inimigo.altura);
     const precisao = .7
     const colisao = collideRectRect(
       this.x,

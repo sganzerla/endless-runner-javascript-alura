@@ -6,15 +6,15 @@
     "mapa": [
         {
             "inimigo": 0,
-            "velocidade": 13
+            "velocidade": 16
         },
         {
             "inimigo": 1,
             "velocidade": 17
         },
         {
-            "inimigo": 1,
-            "velocidade": 22
+            "inimigo": 0,
+            "velocidade": 23
         },
         {
             "inimigo": 2,

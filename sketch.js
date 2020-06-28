@@ -1,8 +1,9 @@
 function preload() {
-  imagemCenario = loadImage('imagens/cenario/floresta.png');
+  imagemCenario = loadImage('imagens/cenario/praia.jpg');
   imagemTelaInicial = loadImage('imagens/assets/telaInicial.png');
   imagemGameOver = loadImage('imagens/assets/game-over.png');
-  imagemPersonagem = loadImage('imagens/personagem/correndo.png');
+  // imagemPersonagem = loadImage('imagens/personagem/correndo.png');
+  imagemPersonagem = loadImage('imagens/personagem/dora-walk2.png');
   imagemInimigo = loadImage('imagens/inimigos/gotinha.png');
   imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png');
   imagemInimigoGrande = loadImage('imagens/inimigos/troll.png');
