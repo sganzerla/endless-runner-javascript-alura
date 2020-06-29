@@ -2,7 +2,7 @@
 
 ## ImersaoGameDev
 
-Versão adaptada do desenho da Nicklodeon Dora Aventureira para fins não comerciais.
+Versão adaptada do desenho da Nickelodeon Dora Aventureira para fins não comerciais.
 
 <p align="center">
   <a href="https://www.alura.com.br/">
