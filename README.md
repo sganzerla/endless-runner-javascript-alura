@@ -21,6 +21,7 @@
   - [:fire: Como jogar](#fire-como-jogar)
   - [:mortar_board: Instrutores](#mortar_board-instrutores)
   - [:trophy: Evolução Projeto](#trophy-evolução-projeto)
+  - [:bulb: Outras Versões](#bulb-outras-versões)
   - [:memo: License](#memo-license)
 
 <a id="sobre"></a>
@@ -50,7 +51,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 1. Faça um clone do repositório:
 
 ```sh
-  $ git clone https://github.com/hrezend/rag-forever
+  $ git clone https://github.com/sganzerla/endless-runner-javascript-alura
 ```
 
 2. Executando a Aplicação:
@@ -74,7 +75,6 @@ As aulas foram ministradas pelo CEO da Caelum/Alura, **[Paulo Silveira](https://
 
 ![image](resources/aula5.gif)
 
-
 [aula04 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula04-estado-e-cenas?utm_campaign=imersao_js_gamedev_aula_04&utm_medium=email&utm_source=RD+Station)
 
 ![image](resources/aula4.gif)
@@ -90,6 +90,12 @@ As aulas foram ministradas pelo CEO da Caelum/Alura, **[Paulo Silveira](https://
 [aula01 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula01-game-personagem-animacao?utm_campaign=imersao_js_gamedev_aula_01&utm_medium=email&utm_source=RD+Station)
 
 ![image](resources/aula1.gif)
+
+<a id="outras-versoes"></a>
+
+## :bulb: Outras Versões
+
+[Dora Aventureira](https://github.com/sganzerla/endless-runner-javascript-alura/tree/v1-dora)
 
 ## :memo: License
 
