@@ -2,6 +2,8 @@
 
 ## ImersaoGameDev
 
+Versão adaptada do desenho da Nicklodeon Dora Aventureira para fins não comerciais.
+
 <p align="center">
   <a href="https://www.alura.com.br/">
     <img alt="Made by Alura" src="https://img.shields.io/badge/Made%20By-Alura-blue">
@@ -11,6 +13,8 @@
   <br><br>
 </p>
 
+![image](resources/dora.gif)
+
 # Índice
 
 - [endless-runner-javascript-alura](#endless-runner-javascript-alura)
@@ -19,8 +23,6 @@
   - [:bookmark: Sobre](#bookmark-sobre)
   - [:rocket: Tecnologias Utilizadas](#rocket-tecnologias-utilizadas)
   - [:fire: Como jogar](#fire-como-jogar)
-  - [:mortar_board: Instrutores](#mortar_board-instrutores)
-  - [:trophy: Evolução Projeto](#trophy-evolução-projeto)
   - [:memo: License](#memo-license)
 
 <a id="sobre"></a>
@@ -50,7 +52,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 1. Faça um clone do repositório:
 
 ```sh
-  $ git clone https://github.com/hrezend/rag-forever
+  $ git clone https://github.com/sganzerla/endless-runner-javascript-alura
 ```
 
 2. Executando a Aplicação:
@@ -60,36 +62,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   $ Procure o arquivo "index.html".
   $ Execute o arquivo citado acima com o Live Server.
 ```
-<a id="instrutores"></a>
 
-## :mortar_board: Instrutores
-
-As aulas foram ministradas pelo CEO da Caelum/Alura, **[Paulo Silveira](https://twitter.com/paulo_caelum)**, pela instrutora da Alura, **[Juliana Negreiros](https://twitter.com/juunegreiros)**, e pelo instrutor da Alura, **[Guilherme Lima](https://twitter.com/guilhermebzlima)**, na semana da **Imersão GameDev Alura** entre 22 e 26 de junho 2020.
-
-<a id="evolucao-projeto"></a>
-
-## :trophy: Evolução Projeto
-
-[aula05 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula05-vidas-e-mapas?utm_campaign=imersao_js_gamedev_aula_05&utm_medium=email&utm_source=RD+Station)
-
-![image](resources/aula5.gif)
-
-
-[aula04 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula04-estado-e-cenas?utm_campaign=imersao_js_gamedev_aula_04&utm_medium=email&utm_source=RD+Station)
-
-![image](resources/aula4.gif)
-
-[aula03 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula03-mapas-texto-e-power-ups?utm_campaign=imersao_js_gamedev_aula_03&utm_medium=email&utm_source=RD+Station)
-
-![image](resources/aula3.gif)
-
-[aula02 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula02-inimigo-movimentacao-e-gravidade?utm_campaign=imersao_js_gamedev_aula_02&utm_medium=email&utm_source=RD+Station)
-
-![image](resources/aula2.gif)
-
-[aula01 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula01-game-personagem-animacao?utm_campaign=imersao_js_gamedev_aula_01&utm_medium=email&utm_source=RD+Station)
-
-![image](resources/aula1.gif)
 
 ## :memo: License
 

@@ -21,9 +21,9 @@ class TelaInicial {
     textAlign(CENTER);
     textSize(50);
     textFont(fonteTelaInicial);
-    text('As aventuras de', width / 2, height / 3);
+    text('As aventuras da', width / 2, height / 3);
     textSize(150);
-    text('Hipsta', width / 2, height / 5 * 3);
+    text('Hipsta Dora', width / 2, height / 5 * 3);
     textFont('Georgia')
   }
 

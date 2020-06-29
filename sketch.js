@@ -1,6 +1,6 @@
 function preload() {
   imagemCenario = loadImage('imagens/cenario/praia.jpg');
-  imagemTelaInicial = loadImage('imagens/assets/telaInicial.png');
+  imagemTelaInicial = loadImage('imagens/assets/tela-inicial.jpg');
   imagemGameOver = loadImage('imagens/assets/game-over.png');
   imagemPersonagem = loadImage('imagens/personagem/dora-walk2.png');
   imagemInimigoCarangueijo = loadImage('imagens/inimigos/carangueijo.png');
