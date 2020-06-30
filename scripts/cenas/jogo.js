@@ -11,14 +11,14 @@ class Jogo {
     pontuacao = new Pontuacao();
     vida = new Vida(fita.configuracoes.vidaMaxima, fita.configuracoes.vidaInicial);
     //constructor(matriz, imagem, x, variacaoY, largura, altura, larguraSprite, alturaSprite)
-    personagem = new Personagem(matrizPersonagem, imagemPersonagem, 0, 30, 110, 135, 60.875, 104);
-    const inimigoCarangueijo = new Inimigo(matrizInimigoCarangueijo, imagemInimigoCarangueijo, width - 98.222222222, 30, 98.222222222, 66, 98.222222222, 66, 10);
-    const inimigoSwiper = new Inimigo(matrizInimigoSwiper, imagemInimigoSwiper, width, 30, 155, 150, 200, 200, 10);
-    const inimigoGrande = new Inimigo(matrizInimigoGrande, imagemInimigoGrande, width, 0, 200, 200, 400, 400, 10);
+    personagem = new Personagem(matrizPersonagem, imagemPersonagem, 0, 30, 200, 250, 102.4, 87);
+    const inimigoBoi = new Inimigo(matrizInimigoBoi, imagemInimigoBoi, width - 98.222222222, 30, 250, 160, 136.5, 75, 10);
+    const inimigoLadrao = new Inimigo(matrizInimigoHomemDinamite, imagemInimigoHomemDinamite, width, 30, 155, 150, 42.6, 49., 10);
+    const inimigoHomemDinamite = new Inimigo(matrizInimigoLadrao, imagemInimigoLadrao, width, 30, 150, 150, 39.2, 51, 10);
 
-    inimigos.push(inimigoCarangueijo);
-    inimigos.push(inimigoGrande);
-    inimigos.push(inimigoSwiper);
+    inimigos.push(inimigoBoi);
+    inimigos.push(inimigoHomemDinamite);
+    inimigos.push(inimigoLadrao);
   }
 
   keyPressed(key) {

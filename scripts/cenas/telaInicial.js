@@ -19,11 +19,11 @@ class TelaInicial {
     strokeWeight(2);
     stroke(245, this.opacity);
     textAlign(CENTER);
-    textSize(50);
+    textSize(120);
     textFont(fonteTelaInicial);
-    text('As aventuras da', width / 2, height / 3);
+    text('San Setriders', width / 2, height / 3);
     textSize(150);
-    text('Hipsta Dora', width / 2, height / 5 * 3);
+    text('II', width / 2, height / 5 * 3);
     textFont('Georgia')
   }
 

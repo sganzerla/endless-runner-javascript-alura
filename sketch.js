@@ -1,11 +1,11 @@
 function preload() {
-  imagemCenario = loadImage('imagens/cenario/praia.jpg');
+  imagemCenario = loadImage('imagens/cenario/praia.png');
   imagemTelaInicial = loadImage('imagens/assets/tela-inicial.jpg');
   imagemGameOver = loadImage('imagens/assets/game-over.png');
-  imagemPersonagem = loadImage('imagens/personagem/dora-walk2.png');
-  imagemInimigoCarangueijo = loadImage('imagens/inimigos/carangueijo.png');
-  imagemInimigoSwiper = loadImage('imagens/inimigos/swiper.png');
-  imagemInimigoGrande = loadImage('imagens/inimigos/troll.png');
+  imagemPersonagem = loadImage('imagens/personagem/dora-walk1.png');
+  imagemInimigoBoi = loadImage('imagens/inimigos/boi.png');
+  imagemInimigoHomemDinamite = loadImage('imagens/inimigos/homem-dinamite.png');
+  imagemInimigoLadrao = loadImage('imagens/inimigos/ladrao.png');
   imagemVida = loadImage('imagens/assets/heart.png');
   fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
   fita = loadJSON('fita/fita.json');
