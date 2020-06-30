@@ -11,17 +11,26 @@
   <br><br>
 </p>
 
+
+<a id="outras-versoes"></a>
+
+## :bulb: Outras Versões
+
+[Dora Aventureira](https://github.com/sganzerla/endless-runner-javascript-alura/tree/v1-dora)
+[Sunset Riders](https://github.com/sganzerla/endless-runner-javascript-alura/tree/v1-faroeste)
+
+
 # Índice
 
 - [endless-runner-javascript-alura](#endless-runner-javascript-alura)
   - [ImersaoGameDev](#imersaogamedev)
+  - [:bulb: Outras Versões](#bulb-outras-versões)
 - [Índice](#índice)
   - [:bookmark: Sobre](#bookmark-sobre)
   - [:rocket: Tecnologias Utilizadas](#rocket-tecnologias-utilizadas)
   - [:fire: Como jogar](#fire-como-jogar)
   - [:mortar_board: Instrutores](#mortar_board-instrutores)
   - [:trophy: Evolução Projeto](#trophy-evolução-projeto)
-  - [:bulb: Outras Versões](#bulb-outras-versões)
   - [:memo: License](#memo-license)
 
 <a id="sobre"></a>
@@ -90,12 +99,6 @@ As aulas foram ministradas pelo CEO da Caelum/Alura, **[Paulo Silveira](https://
 [aula01 - Alura](https://www.alura.com.br/imersao-gamedev-javascript/aula01-game-personagem-animacao?utm_campaign=imersao_js_gamedev_aula_01&utm_medium=email&utm_source=RD+Station)
 
 ![image](resources/aula1.gif)
-
-<a id="outras-versoes"></a>
-
-## :bulb: Outras Versões
-
-[Dora Aventureira](https://github.com/sganzerla/endless-runner-javascript-alura/tree/v1-dora)
 
 ## :memo: License
 
