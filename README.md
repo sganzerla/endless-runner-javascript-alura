@@ -2,7 +2,7 @@
 
 ## ImersaoGameDev
 
-Versão adaptada do desenho da Nicklodeon Dora Aventureira para fins não comerciais.
+Versão adaptada do clássico do supernintendo SunsetRiders da Konami para fins não comerciais.
 
 <p align="center">
   <a href="https://www.alura.com.br/">
@@ -13,7 +13,7 @@ Versão adaptada do desenho da Nicklodeon Dora Aventureira para fins não comerc
   <br><br>
 </p>
 
-![image](resources/dora.gif)
+![image](resources/sunset-riders.gif)
 
 # Índice
 
@@ -62,7 +62,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   $ Procure o arquivo "index.html".
   $ Execute o arquivo citado acima com o Live Server.
 ```
-
 
 ## :memo: License
 
